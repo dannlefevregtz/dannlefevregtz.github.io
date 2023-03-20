@@ -67,7 +67,7 @@ nav ul li a {
 }
 
 #audio {
-    display: none;
+    display: yes;
   }
   
   #progressbar {

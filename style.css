@@ -1,6 +1,10 @@
+:root {
+    --text-color: chartreuse;
+}
+
 body, header {
     background-color: #050a30;
-    color: lime;
+    color: var(--text-color);
 }
 
 header {
@@ -23,7 +27,7 @@ li {
 }
 
 a {
-    color: lime;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -95,7 +99,7 @@ nav ul li a {
 #progressbar {
     width: 100px;
     height: 5px;
-    background-color: lime;
+    background-color: var(--text-color);
     position: relative;
 }
 
@@ -106,7 +110,7 @@ nav ul li a {
     left: 0;
     width: 10px;
     height: 10px;
-    background-color: lime;
+    background-color: var(--text-color);
     border-radius: 50%;
     transform: translateX(-50%);
 }
@@ -121,7 +125,7 @@ nav ul li a {
 #audio button svg {
     width: 20px;
     height: 20px;
-    fill: lime;
+    fill: var(--text-color);
 }
 
 #audio button:hover svg {
@@ -134,7 +138,7 @@ footer {
     left: 0;
     right: 0;
     height: 50px;
-    color: lime;
+    color: var(--text-color);
     padding-top: 15px;
     font-size: 14px;
 }

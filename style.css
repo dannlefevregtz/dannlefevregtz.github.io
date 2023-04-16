@@ -143,6 +143,6 @@ footer {
     font-size: 14px;
 }
 
-footer:hover{
+footer p:hover{
     color: red;
 }

@@ -1,6 +1,6 @@
 body, header {
     background-color: #050a30;
-    color: lime;
+    color: chartreuse;
 }
 
 header {
@@ -84,6 +84,28 @@ td.win {
     text-align: center;
     font-size: 36px;
     margin-top: 20px;
+}
+
+@keyframes cambio_de_color {
+    from {
+        background-color: chartreuse;
+        color: #050A30;
+    }
+
+    to {
+        background-color: #050A30;
+        color: chartreuse;
+    }
+}
+
+button {
+    background-color: chartreuse;
+    animation-name: cambio_de_color;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 footer {

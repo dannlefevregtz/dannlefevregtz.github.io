@@ -16,3 +16,18 @@ audio.addEventListener("timeupdate", function() {
   const value = (100 / audio.duration) * audio.currentTime;
   progress.style.width = `${value}%`;
 });
+
+function click() {
+    if (event.button == 2) {
+        alert("Hola, Capibara.");
+    }
+}
+
+document.onmousedown = click
+
+document.addEventListener('keydown', function (event) {
+    if (event.ctrlKey && event.code === 'KeyC') {
+        event.preventDefault();
+        alert("Hola, Capibara.");
+    }
+});
